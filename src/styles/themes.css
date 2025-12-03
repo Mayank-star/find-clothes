@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+  --background: #ffffff;
+  --white: #ffffff;
+  --black: #000000;
+  --black-shade1: #0000001a;
+  --black--shade2: #001e3c;
+  --primary: #001e3c;
+  --light-primary: #d3e3fd;
+  --light-primary50: #d3e3fd80;
+  --light-primary35: #d3e3fd59;
+  --grey-shade: #474b5059;
+  --grey-dark-shade: #666666;
+  --dark-primary: #001e3c;
+  --dark-shade1: #00033e;
+  --secondary: #003c5a;
+  --light-secondary: #a6c3f2;
+  --hover-primary: #00b8ff;
+  --light-blue: #74a3ef;
+  --light-blue-gradient: linear-gradient(
+    180deg,
+    #d3e3fd 0%,
+    #ecf3fe 50%,
+    #ffffff 100%
+  );
+  --light-darkblue-gradient: linear-gradient(#001e3c, #003c5a);
+  --error: #f83636;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto);
+}
+
+
+/* @layer base {
+} */
