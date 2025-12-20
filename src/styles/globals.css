@@ -1,9 +1,9 @@
 @import "./themes.css";
 
-.condition-btn {
+/* .condition-btn {
   @apply relative flex items-center justify-between gap-2 px-3 py-1.5 rounded-md border border-blue-200 bg-white cursor-pointer overflow-hidden transition-colors duration-300 ease-in-out hover:border-[#00b8ff] hover:shadow-md after:content-[''] after:absolute after:inset-0 after:bg-[#00b8ff] after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100 after:z-0;
   text-decoration: none !important;
-}
+} */
 
 .dropdown-arrow::before {
   content: "";
