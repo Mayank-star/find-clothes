@@ -19,3 +19,9 @@
   filter: drop-shadow(0 -2px 2px rgba(0,0,0,0.1));
 
 }
+
+
+.cloth-bg {
+    background-image: url("/images/cloth.svg");
+  @apply    relative z-999 w-full bg-no-repeat bg-bottom bg-contain  h-80 md:h-[480px];
+}

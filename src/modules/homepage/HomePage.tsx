@@ -1,5 +1,9 @@
+import Shopnow from "./sections/shopnow/Shopnow";
+
  export default function HomePage(){
     return (
-        <h1 className="bg-red-300 h-[300px]" >dd</h1>
+        <div className="max-w-[1550px] mx-auto">
+            <Shopnow/>
+        </div>
     )
  }

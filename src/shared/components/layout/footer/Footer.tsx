@@ -31,9 +31,10 @@ const payMode = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F5F5F5] pt-16 ">
+    <footer className="bg-[#F5F5F5] mt-40 pt-16 relative">
       {/* ===== NEWSLETTER ===== */}
-      <div className="mx-4 lg:mx-20 bg-(--black) rounded-2xl p-6 lg:p-12 flex flex-col lg:flex-row items-center justify-between gap-6 -mt-40">
+      <div className="absolute left-0 right-0 top-0 -translate-y-1/2">
+      <div className="mx-4 lg:mx-20 bg-(--black) rounded-2xl p-6 lg:p-12 flex flex-col lg:flex-row items-center justify-between gap-6">
         <h2 className="text-(--white) text-2xl lg:text-4xl font-extrabold max-w-xl  ">
           STAY UPTO DATE ABOUT <br /> OUR LATEST OFFERS
         </h2>
@@ -51,6 +52,7 @@ export default function Footer() {
             Subscribe to Newsletter
           </button>
         </div>
+      </div>
       </div>
         <div className="mx-4 lg:mx-20 mt-8 lg:mt-16  text-sm lg:hidden">
           <Image
