@@ -100,7 +100,7 @@ export default function Header() {
         </nav>
       </aside>
 
-      <header className="w-full border-b">
+      <header className="w-full">
         <div className="flex items-center justify-between gap-1  lg:gap-10 px-4 py-4 lg:px-16 lg:py-5">
           <div className="flex items-center gap-4">
             <Menu
