@@ -1,4 +1,5 @@
 import NewArrivals from "./sections/arrivals/NewArrivals";
+import HappyCustomer from "./sections/happycustomer/HappyCustomer";
 import TopSelling from "./sections/selling/TopSelling";
 import Shopnow from "./sections/shopnow/Shopnow";
 
@@ -8,6 +9,7 @@ import Shopnow from "./sections/shopnow/Shopnow";
             <Shopnow/>
             <NewArrivals/>
             <TopSelling/>
+            <HappyCustomer/>
         </div>
     )
  }

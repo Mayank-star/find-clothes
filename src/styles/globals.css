@@ -22,6 +22,6 @@
 
 
 .cloth-bg {
-    background-image: url("/images/cloth.svg");
-  @apply    relative z-999 w-full bg-no-repeat bg-bottom bg-contain  h-80 md:h-[480px];
+  background-image: url("/images/cloth.svg");
+  @apply relative z-999 w-full bg-no-repeat bg-bottom bg-contain  h-80 md:h-[480px];
 }
