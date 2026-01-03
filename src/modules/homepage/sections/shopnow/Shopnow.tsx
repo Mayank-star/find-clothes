@@ -1,5 +1,7 @@
+"use client"
 import React from "react";
 import Brand from "./Brand";
+import { useRouter } from "next/navigation";
 const stats = [
   {
     id: 1,
@@ -19,6 +21,7 @@ const stats = [
 ];
 
 const Shopnow = () => {
+  const router = useRouter()
   return (
     <>
       <div className="bg-(--grey-light-shade) grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-0.5 lg:px-20">
@@ -34,7 +37,7 @@ const Shopnow = () => {
               designed to bring out your individuality and cater to your sense
               of style.
             </p>
-            <button className="bg-(--black) font-light text-(--white) rounded-full py-3 px-10 text-[16px] cursor-pointer">
+            <button className="bg-(--black) font-light text-(--white) rounded-full py-3 px-10 text-[16px] cursor-pointer" onClick={()=>router.push('/productDetail')}>
               Shop Now
             </button>
 
