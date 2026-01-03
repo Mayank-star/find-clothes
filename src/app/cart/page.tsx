@@ -1,9 +1,9 @@
-import ProductPage from '@/src/modules/product/ProductPage'
+import CartPage from '@/src/modules/add-to-cart/CartPage'
 import React from 'react'
 
 const page = () => {
   return (
-     <ProductPage/>
+    <CartPage/>
   )
 }
 

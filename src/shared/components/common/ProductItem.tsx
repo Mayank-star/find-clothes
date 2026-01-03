@@ -9,12 +9,12 @@ type ProductSectionProps = {
 
 const ProductItem:FC<ProductSectionProps> = ({ title, products }) => {
   return (
-    <div className="space-y-4 py-10">
+    <div className="space-y-4 py-10 mx-4 lg:mx-20">
       <h2 className="font-extrabold text-[20px] lg:text-[40px] text-center">
         {title}
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-4 lg:mx-20 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((item) => (
           <div key={item.id} className="w-full">
             <div className="relative bg-(--grey-shade1) rounded-xl px-2 flex items-center justify-center">
